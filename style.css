@@ -1,0 +1,83 @@
+root{
+
+    
+}
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    cursor : pointer;
+    transform: trannform 300ms ease;
+}
+.btn:hover,
+.logo :hover{
+    transform: scale(1.1);
+}
+.buttons{
+    display: flex;
+    align-self: center;
+    
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: trannform 300ms ease;
+    margin-right: 8px;
+}
+
+.imgBtn{
+    width: 60px;
+    height:60px;
+}
+
+.colorBtn{
+    font-size: 18px;
+    padding : calc(8*2);
+    border-radius: 4px;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+
+.items{
+    
+    width: 60%;
+    height: 60%;
+    list-style: none;
+    padding-left: 0;
+    overflow: scroll;
+    
+}
+.item{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+.item_thumbnail{
+    width : 50px;
+    height: 50px;
+
+}
+.item_description{
+    margin-left: 8px;
+    font-size: 10px;
+}
+
