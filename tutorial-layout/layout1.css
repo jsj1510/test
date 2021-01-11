@@ -1,0 +1,54 @@
+body{
+    background: #c8e6c9;
+    margin: 0 auto;
+}
+
+.wrap{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background: #2e7d32;
+    /* 글씨위치 가운데 */
+    line-height: 100px;
+}
+
+.nav{
+    width: 1000px;
+    height: 100px;
+    background: #68c76c;
+    line-height: 100px;
+}
+
+.aside{
+    width: 400px;
+    height: 400px;
+    background: #509153;
+    line-height: 400px;
+    align-items: center;
+    float: left;
+}
+
+.contents{
+    width: 600px;
+    height: 400px;
+    background: #3c793f;
+    line-height: 400px;
+    float: left;
+}
+
+.footer{
+    width: 1000px;
+    height: 100px;
+    background: #417043;
+    line-height: 100px;
+    float: left;
+}

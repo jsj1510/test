@@ -1,0 +1,63 @@
+body{
+    background: #8dacee;
+    margin: 0 auto;
+}
+
+.wrap{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background: #163881;
+    /* 글씨위치 가운데 */
+    line-height: 100px;
+}
+
+.nav{
+    width: 1000px;
+    height: 100px;
+    background: #3658a1;
+    line-height: 100px;
+}
+
+.side_left{
+    width: 300px;
+    height: 400px;
+    background: #8da6dd;
+    line-height: 400px;
+    align-items: center;
+    float: left;
+}
+
+.contents{
+    width: 400px;
+    height: 400px;
+    background: #5f7dbe;
+    line-height: 400px;
+    float: left;
+}
+
+.side_right{
+    width: 300px;
+    height: 400px;
+    background: #8da6dd;
+    line-height: 400px;
+    align-items: center;
+    float: left;
+}
+
+.footer{
+    width: 1000px;
+    height: 100px;
+    background: #163881;
+    line-height: 100px;
+    float: left;
+}

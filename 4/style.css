@@ -68,3 +68,6 @@
     border-radius: 4px;
     border-color: #007bff;
 }
+.price-item-button:hover{
+    background-color:  #007bff;
+}
