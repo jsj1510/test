@@ -4,30 +4,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
+    
     flex-direction: column;
 }
-.tables a{
+.tables a {
     text-decoration: none;
     color: black;
-    
-}
-.talbes a:hover{
-    color: rgb(61, 18, 180);
+    text-transform: uppercase;
+    text-align: left; 
 }
 
-.talbes .title {
+.tables a:hover {
+    color: rgb(18, 180, 45);
+}
+
+.tables .title {
     text-align: left;
+    width: 60%;
 }
 
 .tables {
     border-top: 1px solid purple;
     width: 1000px;
     margin: 0 auto;
-    
-}
-
-.tables tr {
     
 }
 
@@ -46,7 +45,7 @@
     display: inline-block;
     padding: 5px;
     margin-left: 10px;
-    border-radius: 100px;
+    border-radius: 30px;
     border: 1px solid gray;
     text-decoration: none;
     color: black;
